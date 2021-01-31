@@ -8,6 +8,8 @@ Item -> {id , %itemName%, relatedContent}
 To get this application running. Please install maven and run below command.
 
 `mvn clean spring-boot:run`
+or simply run 
+`SearchEngineBeApplication.main()`
 
 The application creates in memory h2 database and runs on default port 8080
 To configure more properties use application.properties file
